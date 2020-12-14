@@ -22,10 +22,7 @@ nav {
  justify-content: space-between;
 }
 
-nav img {
- max-width: 200px;
- color: black;
-}
+
 
 .content {
  height: calc(100vh - 150px);
@@ -34,7 +31,7 @@ nav img {
  justify-content: space-around;
  align-content: center;
  text-align: center;
- background: lightblue;
+ background: lightgrey;
 }
 
 .box {
@@ -42,17 +39,18 @@ nav img {
  padding: 20px;
  max-width: 80%;
  border-radius: 12px;
+ border: 2px solid white;
 }
 
-.priceList_cnt {
+.priceList {
  list-style: none;
- background :white;
+ background :red;
 }
 
-.customerPrice_cnt {
+.customerPrice {
  color: white;
 
- background: blue;
+ background: black;
 }
 
 .buyButton {
